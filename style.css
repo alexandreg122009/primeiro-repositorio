@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,500;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    pedding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+header {
+
+    margin-left: 40px;
+    padding: 20px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 49px;
+    text-align: left;
+
+}
+
+.menu {
+
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: left;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.5961538553237915px;
+    width: 582px;
+    height: 164px;
+    margin-top: 242px;
+    text-align: left;
+
+}
+
+p {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    height: 99px;
+    text-align: center;
+
+}
+
+
+
+.but {
+    width: 124px;
+    height: 51px;
+    margin-top: 62px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    background: #4CB538;
+    border: none;
+
+
+
+}
+
+.link {
+    color: #4CB538;
+    border: none;
+    width: 112px;
+    height: 27px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    background: transparent;
+    margin: auto;
+    display: block;
+    position: relative
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .menu {
+        display: none;
+
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        width: 278px;
+        height: 60px;
+    }
+    section {
+        display: block;
+    }
+
+    .but {
+        display: flex;
+        position: absolute;
+        
+
+}
+
+img {
+    display: inline-block;
+    width: 312px;
+    height: 288px;
+    top: 200px;
+    margin-left: 121px;
+    margin-bottom: 150px;
+}
+body {
+    
+}
+}
